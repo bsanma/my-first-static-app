@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darth Vader und Schöggu Stähli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .scene {
+            text-align: center;
+        }
+        .vader, .schöggu {
+            margin: 20px;
+        }
+        .vader {
+            font-size: 1.5em;
+        }
+        .schöggu {
+            font-size: 1.2em;
+            color: #00ff00;
+        }
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+    <div class="scene">
+        <div class="vader">
+            <p>Darth Vader: Schöggu Stähli, ich bin dein Vater.</p>
+        </div>
+        <div class="schöggu">
+            <p>Schöggu Stähli: Nei! Das cha nid si! Mini Laserchnübbu sind trotzdem besser!</p>
+        </div>
+    </div>
 </body>
-
 </html>
